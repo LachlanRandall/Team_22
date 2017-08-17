@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: fbfffb06b88d34442828c4b392ea54b8
+timeCreated: 1502170094
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Base
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.001_end
+    100010: Bone_end
+    100012: Chest
+    100014: Chin
+    100016: Chin.001
+    100018: Chin_end
+    100020: Collar.L
+    100022: Collar.R
+    100024: Cylinder
+    100026: EB Corner L
+    100028: EB Corner L_end
+    100030: EB Corner R
+    100032: EB Corner R_end
+    100034: EB End L
+    100036: EB End L_end
+    100038: EB End R
+    100040: EB End R_end
+    100042: EB Middle  L
+    100044: EB Middle  L_end
+    100046: EB Middle  R
+    100048: EB Middle  R_end
+    100050: EL Lower L
+    100052: EL Lower L_end
+    100054: EL Lower R
+    100056: EL Lower R_end
+    100058: EL UPPER L
+    100060: EL UPPER L_end
+    100062: EL UPPER R
+    100064: EL UPPER R_end
+    100066: ET-LEFT
+    100068: ET-LEFT_end
+    100070: ET-RIGHT
+    100072: ET-RIGHT_end
+    100074: Foot.IKL
+    100076: Foot.IKR
+    100078: Foot.L
+    100080: Foot.R
+    100082: Forearm.L
+    100084: Forearm.L.001
+    100086: Forearm.L.002
+    100088: Forearm.L.003
+    100090: Forearm.L.004
+    100092: Forearm.L.004_end
+    100094: Forearm.L.005
+    100096: Forearm.L.006
+    100098: Forearm.L.007
+    100100: Forearm.L.007_end
+    100102: Forearm.L.008
+    100104: Forearm.L.009
+    100106: Forearm.L.010
+    100108: Forearm.L.010_end
+    100110: Forearm.L.011
+    100112: Forearm.L.012
+    100114: Forearm.L.013
+    100116: Forearm.L.013_end
+    100118: Forearm.L.014
+    100120: Forearm.L.015
+    100122: Forearm.L.016
+    100124: Forearm.L.016_end
+    100126: Forearm.R
+    100128: Forearm.R.001
+    100130: Forearm.R.002
+    100132: Forearm.R.003
+    100134: Forearm.R.004
+    100136: Forearm.R.004_end
+    100138: Forearm.R.005
+    100140: Forearm.R.006
+    100142: Forearm.R.007
+    100144: Forearm.R.007_end
+    100146: Forearm.R.008
+    100148: Forearm.R.009
+    100150: Forearm.R.010
+    100152: Forearm.R.010_end
+    100154: Forearm.R.011
+    100156: Forearm.R.012
+    100158: Forearm.R.013
+    100160: Forearm.R.013_end
+    100162: Forearm.R.014
+    100164: Forearm.R.015
+    100166: Forearm.R.016
+    100168: Forearm.R.016_end
+    100170: Head
+    100172: Knee.L
+    100174: Knee.L_end
+    100176: Knee.R
+    100178: Knee.R_end
+    100180: //RootNode
+    100182: Lip Arch L
+    100184: Lip Arch L_end
+    100186: Lip Arch R
+    100188: Lip Arch R_end
+    100190: Lower-leg.L
+    100192: Lower-leg.R
+    100194: Mouth Corner L
+    100196: Mouth Corner L_end
+    100198: Mouth Corner R
+    100200: Mouth Corner R_end
+    100202: neck
+    100204: Nose.L
+    100206: Nose.L_end
+    100208: Nose.R
+    100210: Nose.R_end
+    100212: Pelvis
+    100214: Plane.002
+    100216: Root
+    100218: Sphere
+    100220: Sphere.001
+    100222: Stomach
+    100224: Thigh.L
+    100226: Thigh.R
+    100228: Toe.L
+    100230: Toe.L_end
+    100232: Toe.R
+    100234: Toe.R_end
+    100236: Upperarm.L
+    100238: Upperarm.R
+    400000: Armature
+    400002: Base
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.001_end
+    400010: Bone_end
+    400012: Chest
+    400014: Chin
+    400016: Chin.001
+    400018: Chin_end
+    400020: Collar.L
+    400022: Collar.R
+    400024: Cylinder
+    400026: EB Corner L
+    400028: EB Corner L_end
+    400030: EB Corner R
+    400032: EB Corner R_end
+    400034: EB End L
+    400036: EB End L_end
+    400038: EB End R
+    400040: EB End R_end
+    400042: EB Middle  L
+    400044: EB Middle  L_end
+    400046: EB Middle  R
+    400048: EB Middle  R_end
+    400050: EL Lower L
+    400052: EL Lower L_end
+    400054: EL Lower R
+    400056: EL Lower R_end
+    400058: EL UPPER L
+    400060: EL UPPER L_end
+    400062: EL UPPER R
+    400064: EL UPPER R_end
+    400066: ET-LEFT
+    400068: ET-LEFT_end
+    400070: ET-RIGHT
+    400072: ET-RIGHT_end
+    400074: Foot.IKL
+    400076: Foot.IKR
+    400078: Foot.L
+    400080: Foot.R
+    400082: Forearm.L
+    400084: Forearm.L.001
+    400086: Forearm.L.002
+    400088: Forearm.L.003
+    400090: Forearm.L.004
+    400092: Forearm.L.004_end
+    400094: Forearm.L.005
+    400096: Forearm.L.006
+    400098: Forearm.L.007
+    400100: Forearm.L.007_end
+    400102: Forearm.L.008
+    400104: Forearm.L.009
+    400106: Forearm.L.010
+    400108: Forearm.L.010_end
+    400110: Forearm.L.011
+    400112: Forearm.L.012
+    400114: Forearm.L.013
+    400116: Forearm.L.013_end
+    400118: Forearm.L.014
+    400120: Forearm.L.015
+    400122: Forearm.L.016
+    400124: Forearm.L.016_end
+    400126: Forearm.R
+    400128: Forearm.R.001
+    400130: Forearm.R.002
+    400132: Forearm.R.003
+    400134: Forearm.R.004
+    400136: Forearm.R.004_end
+    400138: Forearm.R.005
+    400140: Forearm.R.006
+    400142: Forearm.R.007
+    400144: Forearm.R.007_end
+    400146: Forearm.R.008
+    400148: Forearm.R.009
+    400150: Forearm.R.010
+    400152: Forearm.R.010_end
+    400154: Forearm.R.011
+    400156: Forearm.R.012
+    400158: Forearm.R.013
+    400160: Forearm.R.013_end
+    400162: Forearm.R.014
+    400164: Forearm.R.015
+    400166: Forearm.R.016
+    400168: Forearm.R.016_end
+    400170: Head
+    400172: Knee.L
+    400174: Knee.L_end
+    400176: Knee.R
+    400178: Knee.R_end
+    400180: //RootNode
+    400182: Lip Arch L
+    400184: Lip Arch L_end
+    400186: Lip Arch R
+    400188: Lip Arch R_end
+    400190: Lower-leg.L
+    400192: Lower-leg.R
+    400194: Mouth Corner L
+    400196: Mouth Corner L_end
+    400198: Mouth Corner R
+    400200: Mouth Corner R_end
+    400202: neck
+    400204: Nose.L
+    400206: Nose.L_end
+    400208: Nose.R
+    400210: Nose.R_end
+    400212: Pelvis
+    400214: Plane.002
+    400216: Root
+    400218: Sphere
+    400220: Sphere.001
+    400222: Stomach
+    400224: Thigh.L
+    400226: Thigh.R
+    400228: Toe.L
+    400230: Toe.L_end
+    400232: Toe.R
+    400234: Toe.R_end
+    400236: Upperarm.L
+    400238: Upperarm.R
+    2300000: Sphere
+    2300002: Sphere.001
+    3300000: Sphere
+    3300002: Sphere.001
+    4300000: Sphere
+    4300002: Sphere.001
+    4300004: Plane.002
+    4300006: Cylinder
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|ArmatureAction.002
+    7400006: Armature|EXPERIMENT
+    7400008: Armature|PlaneAction
+    7400010: Armature|WALK-CYCLE
+    7400012: Plane.002|ArmatureAction.001
+    7400014: Plane.002|ArmatureAction.002
+    7400016: Plane.002|EXPERIMENT
+    7400018: Plane.002|PlaneAction
+    7400020: Sphere.001|ArmatureAction.001
+    7400022: Sphere.001|ArmatureAction.002
+    7400024: Sphere.001|EXPERIMENT
+    7400026: Sphere.001|PlaneAction
+    9500000: //RootNode
+    13700000: Cylinder
+    13700002: Plane.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.002
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PlaneAction
+      takeName: Armature|PlaneAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WALK-CYCLE
+      takeName: Armature|WALK-CYCLE
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Plane.002|ArmatureAction.001
+      takeName: Plane.002|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Plane.002|ArmatureAction.002
+      takeName: Plane.002|ArmatureAction.002
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sphere.001|PlaneAction
+      takeName: Sphere.001|PlaneAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
