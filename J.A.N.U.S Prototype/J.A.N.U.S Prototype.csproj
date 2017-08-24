@@ -81,6 +81,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\teleport.cs" />
     <Compile Include="Assets\scripts\teleportToBlue.cs" />
     <Compile Include="Assets\scripts\teleportToGreen.cs" />
     <Compile Include="Assets\scripts\teleportToRed.cs" />
