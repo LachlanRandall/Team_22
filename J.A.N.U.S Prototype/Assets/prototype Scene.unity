@@ -270,7 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd8f894f0ab71f43a41ac460219ee00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  walkSpeed: 5
+  sprintSpeed: 10
   cam: {fileID: 1080824527}
 --- !u!54 &409774603
 Rigidbody:
