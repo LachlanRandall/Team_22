@@ -272,6 +272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   sprintSpeed: 10
+  jumpForce: 300
+  rb: {fileID: 409774603}
   cam: {fileID: 1080824527}
 --- !u!54 &409774603
 Rigidbody:

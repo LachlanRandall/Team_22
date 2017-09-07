@@ -6,6 +6,8 @@ public class movement : MonoBehaviour {
 
     public float walkSpeed = 10f;
     public float sprintSpeed = 20f;
+    public float jumpForce = 300f;
+    public Rigidbody rb;
     float movementSpeed = 10f;
     public GameObject cam;
 
@@ -52,5 +54,14 @@ public class movement : MonoBehaviour {
             movementSpeed = walkSpeed;
         }
 
+        if (Input.GetKeyDown(KeyCode.Space) == true && onGround()) {
+            rb.AddForce(new Vector3(0,jumpForce,0));
+        }
+
     }
+
+    bool onGround() {
+        return Physics.Raycast(transform.position, -Vector3.up, 1f); ;
+    }
+
 }
