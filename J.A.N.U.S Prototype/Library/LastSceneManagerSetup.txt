@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/prototype Scene.unity
+- path: Assets/Playtest Atrium.unity
   isLoaded: 1
   isActive: 1

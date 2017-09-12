@@ -61,7 +61,7 @@ public class movement : MonoBehaviour {
     }
 
     bool onGround() {
-        return Physics.Raycast(transform.position, -Vector3.up, 1f); ;
+        return Physics.Raycast(transform.position, -Vector3.up, 1.5f); ;
     }
 
 }
